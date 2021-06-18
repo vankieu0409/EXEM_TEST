@@ -1,0 +1,16 @@
+E:\C# (Sharp)\C#2\EXEM_TEST\EXEM_TEST\bin\Debug\net5.0\EXEM_TEST.exe
+E:\C# (Sharp)\C#2\EXEM_TEST\EXEM_TEST\bin\Debug\net5.0\EXEM_TEST.deps.json
+E:\C# (Sharp)\C#2\EXEM_TEST\EXEM_TEST\bin\Debug\net5.0\EXEM_TEST.runtimeconfig.json
+E:\C# (Sharp)\C#2\EXEM_TEST\EXEM_TEST\bin\Debug\net5.0\EXEM_TEST.runtimeconfig.dev.json
+E:\C# (Sharp)\C#2\EXEM_TEST\EXEM_TEST\bin\Debug\net5.0\EXEM_TEST.dll
+E:\C# (Sharp)\C#2\EXEM_TEST\EXEM_TEST\bin\Debug\net5.0\ref\EXEM_TEST.dll
+E:\C# (Sharp)\C#2\EXEM_TEST\EXEM_TEST\bin\Debug\net5.0\EXEM_TEST.pdb
+E:\C# (Sharp)\C#2\EXEM_TEST\EXEM_TEST\obj\Debug\net5.0\EXEM_TEST.csproj.AssemblyReference.cache
+E:\C# (Sharp)\C#2\EXEM_TEST\EXEM_TEST\obj\Debug\net5.0\EXEM_TEST.GeneratedMSBuildEditorConfig.editorconfig
+E:\C# (Sharp)\C#2\EXEM_TEST\EXEM_TEST\obj\Debug\net5.0\EXEM_TEST.AssemblyInfoInputs.cache
+E:\C# (Sharp)\C#2\EXEM_TEST\EXEM_TEST\obj\Debug\net5.0\EXEM_TEST.AssemblyInfo.cs
+E:\C# (Sharp)\C#2\EXEM_TEST\EXEM_TEST\obj\Debug\net5.0\EXEM_TEST.csproj.CoreCompileInputs.cache
+E:\C# (Sharp)\C#2\EXEM_TEST\EXEM_TEST\obj\Debug\net5.0\EXEM_TEST.dll
+E:\C# (Sharp)\C#2\EXEM_TEST\EXEM_TEST\obj\Debug\net5.0\ref\EXEM_TEST.dll
+E:\C# (Sharp)\C#2\EXEM_TEST\EXEM_TEST\obj\Debug\net5.0\EXEM_TEST.pdb
+E:\C# (Sharp)\C#2\EXEM_TEST\EXEM_TEST\obj\Debug\net5.0\EXEM_TEST.genruntimeconfig.cache
