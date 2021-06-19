@@ -40,7 +40,7 @@ namespace EXEM_TEST
                     case "3":pt.XoaLINQ();break;
                     case "4":pt.docghi();break;
                     case "5":pt.LocDiemTuoi();break;
-                    case "6":pt.SAPXEPgiam();break;
+                    case "6":pt.SAPXEPgiamNgam();break;
                     case "0":Environment.Exit(0); break;
                     default: Console.WriteLine("ahdfjkadhf");break;
                 }

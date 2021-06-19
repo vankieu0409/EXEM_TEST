@@ -108,14 +108,10 @@ namespace EXEM_TEST
         public void XoaLINQ()
         {
             input = mes("Mã SV cần xóa: ");
-            foreach (var x in _lstStudents.Where(c => c.MaSv == Convert.ToInt16(input)))
-            {
-                int i = 0;
-                if (x.MaSv == _lstStudents[i].MaSv)
-                {
-                    _lstStudents.RemoveAt(i);
-                }
-            }
+            _lstStudents.RemoveAt( _lstStudents.FindIndex( c => c.MaSv ==Convert.ToInt16( input)));
+          
+                    Console.WriteLine("xóa thành công!");
+            
         }
 
         //6. Sử dụng LINQ lọc những người có tuổi >20 và điểm Csharp >=5 và tên có chữ T(1 điểm)
@@ -128,12 +124,10 @@ namespace EXEM_TEST
         }
 
         //7. Sắp xếp giảm dần danh sách sử dụng LINQ(1 điểm)
-        public void SAPXEPgiam()
+        public void SAPXEPgiamNgam()//sắp sếp ngầm
         {
-            foreach (var x in _lstStudents.OrderByDescending(c => c.MaSv))
-            {
-                x.Print_Information("");
-            }
+            var lst1 = _lstStudents.OrderByDescending(c => c.MaSv).ToList();
+            _lstStudents = lst1;
         }
         //0.Thoát
         //Bài có check trùng mã sinh viên khi nhập vào và check rỗng(1 điểm)
