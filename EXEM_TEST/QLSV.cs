@@ -74,17 +74,17 @@ namespace EXEM_TEST
                 return true;
             }
 
-            if (Regex.IsMatch(text, @"^\d+$") == false)
-            {
-                Console.WriteLine(" Bạn Phải Nhập số!  ");
-                return true;
-            }
-
             for (int j = 0; j < _lstStudents.Count; j++)
             {
+                if (Regex.IsMatch(text, @"^\d+$") == false)
+                {
+                    Console.WriteLine(" Bạn Phải Nhập số!  ");
+                    return true;
+                }
+
                 if (Convert.ToInt16(text) == (_lstStudents[j].MaSv))
                 {
-                    Console.WriteLine(" Mã Sinh viên đã có. vui lòng chọ số khác");
+                    Console.WriteLine(" Mã Sinh viên đã có. vui lòng chọn số khác");
                     return true;
                 }
             }
@@ -108,10 +108,9 @@ namespace EXEM_TEST
         public void XoaLINQ()
         {
             input = mes("Mã SV cần xóa: ");
-            _lstStudents.RemoveAt( _lstStudents.FindIndex( c => c.MaSv ==Convert.ToInt16( input)));
-          
-                    Console.WriteLine("xóa thành công!");
-            
+            _lstStudents.RemoveAt(_lstStudents.FindIndex(c => c.MaSv == Convert.ToInt16(input)));
+
+            Console.WriteLine("xóa thành công!");
         }
 
         //6. Sử dụng LINQ lọc những người có tuổi >20 và điểm Csharp >=5 và tên có chữ T(1 điểm)
@@ -124,7 +123,7 @@ namespace EXEM_TEST
         }
 
         //7. Sắp xếp giảm dần danh sách sử dụng LINQ(1 điểm)
-        public void SAPXEPgiamNgam()//sắp sếp ngầm
+        public void SAPXEPgiamNgam() //sắp sếp ngầm
         {
             var lst1 = _lstStudents.OrderByDescending(c => c.MaSv).ToList();
             _lstStudents = lst1;

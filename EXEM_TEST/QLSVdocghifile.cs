@@ -38,7 +38,7 @@ namespace EXEM_TEST
                 lst = new List<Student>();
                 _fs = new FileStream(path, FileMode.Open);
                 _bf = new BinaryFormatter();
-                var data=_bf.Deserialize(_fs);
+                var data=_bf.Deserialize (_fs);
                 lst = (List<Student>) data;
                 _fs.Close();
                 return _lstStudents;
@@ -56,10 +56,12 @@ namespace EXEM_TEST
         {
             do
             {
-                input = mes(" chương trình\n" +
-                            "1. ghi file\n" +
-                            " 2. dọc file\n" +
-                            "0. thoát");
+                Console.WriteLine(" docghi file\n" +
+                                  "1. Lưu File\n" +
+                                  "2. Đọc File\n" +
+                                  " mời bạn chọn");
+                input = Console.ReadLine();
+                  
                 switch (input)
                 {
                     case "1": Console.WriteLine(GHi(_lstStudents,path));break;

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "M4xxBKhuYAcJ0MTnaLm7z6IvRMRfyq70kTycph7B3WUeKEr6dLPGqweE9xumE44x7/oo2Bghe1+Rvd/3/jkTLw==",
+  "dgSpecHash": "wl1wqOVI6JuBbTYzBtnYJHvdIr5NP2YB/zszAIP4ty4+x3x85pnuoOqmxHgrOD0YylHrAaHRwD+CUQSmRVLzgw==",
   "success": true,
   "projectFilePath": "E:\\C# (Sharp)\\C#2\\EXEM_TEST\\EXEM_TEST\\EXEM_TEST.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\MyPC\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.5\\microsoft.netcore.app.host.win-x64.5.0.5.nupkg.sha512"
+  ],
   "logs": []
 }
